@@ -1,6 +1,6 @@
 <?php
 /**
- * Body
+ * SendMail
  *
  * PHP version 5
  *
@@ -32,7 +32,7 @@ use \ArrayAccess;
 use \Interserver\Mailbaby\ObjectSerializer;
 
 /**
- * Body Class Doc Comment
+ * SendMail Class Doc Comment
  *
  * @category Class
  * @description Details for an Email
@@ -40,7 +40,7 @@ use \Interserver\Mailbaby\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class Body implements ModelInterface, ArrayAccess
+class SendMail implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -49,7 +49,7 @@ class Body implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'body';
+    protected static $swaggerModelName = 'SendMail';
 
     /**
       * Array of property to type mappings. Used for (de)serialization
@@ -200,6 +200,18 @@ class Body implements ModelInterface, ArrayAccess
     {
         $invalidProperties = [];
 
+        if ($this->container['to'] === null) {
+            $invalidProperties[] = "'to' can't be null";
+        }
+        if ($this->container['from'] === null) {
+            $invalidProperties[] = "'from' can't be null";
+        }
+        if ($this->container['subject'] === null) {
+            $invalidProperties[] = "'subject' can't be null";
+        }
+        if ($this->container['body'] === null) {
+            $invalidProperties[] = "'body' can't be null";
+        }
         return $invalidProperties;
     }
 
