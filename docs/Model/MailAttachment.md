@@ -1,10 +1,10 @@
-# MailAttachment
+# # MailAttachment
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**filename** | **string** | Optional filename to specify for the attachment. | [optional] 
-**data** | **string** | Contents of the attached file | 
+**data** | [**\SplFileObject**](\SplFileObject.md) | Contents of the attached file |
+**filename** | **string** | Optional filename to specify for the attachment. | [optional]
 
-[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
-
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
