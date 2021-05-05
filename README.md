@@ -195,7 +195,7 @@ try {
 ?>
 ```
 
-## Documentation for API Endpoints
+## Documentation for API End points
 
 All URIs are relative to *https://api.mailbaby.net*
 
