@@ -1,6 +1,6 @@
 <?php
 /**
- * Body
+ * Body1
  *
  * PHP version 5
  *
@@ -32,7 +32,7 @@ use \ArrayAccess;
 use \Interserver\Mailbaby\ObjectSerializer;
 
 /**
- * Body Class Doc Comment
+ * Body1 Class Doc Comment
  *
  * @category Class
  * @description Details for an Email
@@ -40,7 +40,7 @@ use \Interserver\Mailbaby\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class Body implements ModelInterface, ArrayAccess
+class Body1 implements ModelInterface, ArrayAccess
 {
     const DISCRIMINATOR = null;
 
@@ -49,7 +49,7 @@ class Body implements ModelInterface, ArrayAccess
       *
       * @var string
       */
-    protected static $swaggerModelName = 'body';
+    protected static $swaggerModelName = 'body_1';
 
     /**
       * Array of property to type mappings. Used for (de)serialization

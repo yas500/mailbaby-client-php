@@ -1,6 +1,6 @@
 <?php
 /**
- * SendMailTest
+ * SendMailAdvTest
  *
  * PHP version 5
  *
@@ -29,7 +29,7 @@
 namespace Interserver\Mailbaby;
 
 /**
- * SendMailTest Class Doc Comment
+ * SendMailAdvTest Class Doc Comment
  *
  * @category    Class
  * @description Details for an Email
@@ -37,7 +37,7 @@ namespace Interserver\Mailbaby;
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class SendMailTest extends \PHPUnit_Framework_TestCase
+class SendMailAdvTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,16 +69,23 @@ class SendMailTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "SendMail"
+     * Test "SendMailAdv"
      */
-    public function testSendMail()
+    public function testSendMailAdv()
     {
     }
 
     /**
-     * Test attribute "id"
+     * Test attribute "subject"
      */
-    public function testPropertyId()
+    public function testPropertySubject()
+    {
+    }
+
+    /**
+     * Test attribute "body"
+     */
+    public function testPropertyBody()
     {
     }
 
@@ -97,16 +104,9 @@ class SendMailTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "subject"
+     * Test attribute "id"
      */
-    public function testPropertySubject()
-    {
-    }
-
-    /**
-     * Test attribute "body"
-     */
-    public function testPropertyBody()
+    public function testPropertyId()
     {
     }
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * BodyTest
+ * Body1Test
  *
  * PHP version 5
  *
@@ -29,7 +29,7 @@
 namespace Interserver\Mailbaby;
 
 /**
- * BodyTest Class Doc Comment
+ * Body1Test Class Doc Comment
  *
  * @category    Class
  * @description Details for an Email
@@ -37,7 +37,7 @@ namespace Interserver\Mailbaby;
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
-class BodyTest extends \PHPUnit_Framework_TestCase
+class Body1Test extends \PHPUnit_Framework_TestCase
 {
 
     /**
@@ -69,9 +69,9 @@ class BodyTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test "Body"
+     * Test "Body1"
      */
-    public function testBody()
+    public function testBody1()
     {
     }
 
